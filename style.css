@@ -53,7 +53,10 @@ nav {
 }
 
 .nav-closed ul {
-
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .nav-open {
@@ -61,11 +64,12 @@ nav {
   width: 40%;
   height: 80%;
   top: 20%;
-  background-color: teal;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .clothing {
